@@ -2,16 +2,10 @@
   one possible implemenation of the 10print.org algorithm written in JavaScript
 */
 
-// cyanFb: \x1b[96m
-// cyanB: \x1b[46m
-// magentaFb: \x1b[95m
-// magentaB: \x1b[45m
-
 const w = process.stdout.columns
 const color1 = Math.floor(Math.random() * 8)
 const color2 = Math.floor(Math.random() * 8)
 let half = Math.floor(w/2)
-// let crosses = ['╭', '╮', '╯', '╰']
 let crosses = ['▙', '▛', '▜', '▟']
 let boxfill = ['▖', '▗', '▘', '▚', '▝', '▞']
 
